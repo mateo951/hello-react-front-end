@@ -1,70 +1,52 @@
-# Getting Started with Create React App
+## Hello World - Rails-React  ##
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+The main idea begind this project is to implement a connection between a Ruby on Rails back-end and React front-end.
+Understanding the pros and cons of different approaches of connecting Ruby on Rails back-end with React front-end.
 
-## Available Scripts
+Built With
 
-In the project directory, you can run:
+- Ruby
+- Ruby On Rails
+- Ruby Gems
+- PostgreSQL
+- React
+- React
 
-### `npm start`
+### Prerequisites 📌
+- `Ruby`
+- `Ruby on Rails` 
+- `Ruby Gems` 
+- `PostgreSQL`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+### Setup 🔂 
+- Clone the repository using this [GitHub](https://github.com/mateo951/hello-react-front-end.git) link.
+- `cd` into the directory. 
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+### Install ⚙️
+- Run `bundle install` && `npm install`
 
-### `npm test`
+### Database 💾
+- Run `rails db:create` to create the database.
+- Run `rails db:migrate` to create the tables.
+- Run `rails db:seed` to populate the tables.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### Usage 💻
+- Run `rails s` to start the server.
+  
+### Author ###
+👤 Mateo Villagómez<br>
+GitHub: [@mateo951](https://github.com/mateo951)<br>
+Twitter: [@MVGameDev](https://twitter.com/MVGameDev)<br>
+LinkedIn: [@Mateo Villagómez](https://www.linkedin.com/in/mateo-villagómez/)<br>
 
-### `npm run build`
+🤝 Contributing
+Contributions, issues, and feature requests are welcome!
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Feel free to check the [issues](https://github.com/mateo951/hello-react-front-end/issues) page.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Show your support
+Give a ⭐️ if you like this project!
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+📝 License
+This project is MIT licensed.
 
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
