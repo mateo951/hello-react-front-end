@@ -8,7 +8,7 @@ const greetingReducer = (state = initialState, action) => {
       return action.payload;
     default:
       return state;
-  };
+  }
 };
 
 export default greetingReducer;
@@ -22,8 +22,4 @@ export const getGreeting = () => async (dispatch) => {
   const res = await fetch('http://localhost:3001/api/v1/greetings');
   const data = await res.json();
   dispatch(getMessage(data));
-}; 
-
-
-
-
+};
